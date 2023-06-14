@@ -1,5 +1,3 @@
-
-
 const colors = [
     '#16A085',
     '#27AE60',
@@ -34,6 +32,11 @@ const getQuote = () => {
     $('#tweet-quote').attr(
         'href',
         `https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${encodeURIComponent(`"${quote}"-${author}`)}`
+    );
+
+    $('#facebook-quote').attr(
+        'href',
+        `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(`"${quote}" - ${author}`)}`
     );
 
     $('.quote-text').animate(
