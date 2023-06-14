@@ -53,6 +53,7 @@ html {
     outline: none;
     padding: 10px 15px;
     cursor: pointer;
+    margin: 0.5rem;
 }
 
 .button:hover {
@@ -64,6 +65,11 @@ html {
     font-size: 1.2em;
 }
 
+#facebook-quote {
+    font-size: 1.2em;
+}
+
 .sharer {
-    
+    block-size: auto;
+    display: flex;
 }
