@@ -41,9 +41,9 @@ html {
 }
 
 .buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+    width: 450px;
+    margin: auto;
+    display: block;
 }
 
 .button {
