@@ -81,7 +81,7 @@ const getQuote = () => {
     );
 
     $('.button').animate(
-        { backgroundColor: colorAlpha },
+        { backgroundColor: colorBeta },
         1000
     );
 };
