@@ -69,18 +69,19 @@ const getQuote = () => {
         }
     );
 
-    const color = colors[Math.floor(Math.random() * colors.length)];
+    const colorAlpha = colors[Math.floor(Math.random() * colors.length)];
+    const colorBeta = colors[Math.floor(Math.random() * colors.length)];
 
     $('body').animate(
         {
-            backgroundColor: color,
-            color: color
+            backgroundColor: linear-gradient(colorAlpha, colorBeta),
+            color: colorAlpha
         },
         1000
     );
 
     $('.button').animate(
-        { backgroundColor: color },
+        { backgroundColor: colorAlpha },
         1000
     );
 };
