@@ -36,7 +36,7 @@ const getQuote = () => {
 
     $('#facebook-quote').attr(
         'href',
-        `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(`"${quote}" - ${author}`)}`
+        `https://www.facebook.com/sharer/sharer&quote=${encodeURIComponent(`"${quote}" - ${author}`)}`
     );
 
     $('.quote-text').animate(
