@@ -1,4 +1,4 @@
-import quotes from './data/quotes.json';
+
 
 const colors = [
     '#16A085',
@@ -15,7 +15,12 @@ const colors = [
 let allQuotes;
 
 const getQuotes = () => {
-    return allQuotes = quotes;
+    return $.getJSON(
+        './data/quotes.json',
+        (data) => {
+            allQuotes = data;
+        }
+    );
 };
 
 const getRandomQuote = () => {
