@@ -1,4 +1,4 @@
-import * as data from './data/quotes.json'
+import quotes from './data/quotes.json';
 
 const colors = [
     '#16A085',
@@ -15,7 +15,7 @@ const colors = [
 let allQuotes;
 
 const getQuotes = () => {
-    return allQuotes = data;
+    return allQuotes = quotes;
 };
 
 const getRandomQuote = () => {
