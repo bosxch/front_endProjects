@@ -9,6 +9,8 @@ const defaultMarkdown = `
 # Heading 1
 ## Subheading 2
 
+<br>
+
 **Inline code:** \`<div></div>\`
 
 **Block code:**
@@ -20,6 +22,7 @@ const defaultMarkdown = `
 function multiply(a, b){
     return a * b
   }
+
 
 \`\`\`
 
