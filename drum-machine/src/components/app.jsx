@@ -21,7 +21,7 @@ const App = () => {
             type="range"
             value={volume}
             name={volume}
-            onInput={handleVolumeChange}
+            onChange={handleVolumeChange}
           />
           <h2 id="display" >{name}</h2>
           <button class="button-power" onClick={changeSoundGroup}>Change sounds group</button>
