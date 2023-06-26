@@ -20,7 +20,8 @@ const App = () => {
             step='0.01'
             type="range"
             value={volume}
-            onChange={handleVolumeChange}
+            name={volume}
+            onInput={handleVolumeChange}
           />
           <h2 id="display" >{name}</h2>
           <button class="button-power" onClick={changeSoundGroup}>Change sounds group</button>
