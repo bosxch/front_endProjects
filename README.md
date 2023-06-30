@@ -9,5 +9,5 @@ Repository with the 5 final projects of the freeCodeCamp course "Front End Devel
      Trigger audio clips by clicking or using keyboard keys.
  - [JavaScript Calculator](https://javascript-calculator-bosxch.vercel.app)
      Perform operations, handle decimals, and view results accurately.
- - [25 + 5 Clock] On progress...
+ - [25 + 5 Clock](https://pomodoro-clock-bosxch.vercel.app)
      Set customizable session and break lengths, track time visually, and enjoy sound notifications. Boost your productivity with the Pomodoro Technique.
