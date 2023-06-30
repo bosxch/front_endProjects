@@ -28,9 +28,9 @@ body {
             #264653 80%
         );
         background-size: 200% 200%;
-        animation: moviment 7s linear infinite alternate;
+        animation: movement 7s linear infinite alternate;
 
-        @keyframes moviment {
+        @keyframes movement {
             from {
                 background-position: 0 0;
             }
