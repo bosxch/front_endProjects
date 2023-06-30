@@ -1,0 +1,4 @@
+Licence: The sound effect is permitted for non-commercial use under license “Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+
+http://www.orangefreesounds.com/
